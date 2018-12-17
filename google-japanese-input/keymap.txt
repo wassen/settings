@@ -1,0 +1,118 @@
+status	key	command
+Composition	Backspace	Backspace
+Composition	Ctrl h	Backspace
+Conversion	Backspace	Cancel
+Composition	Ctrl [	Cancel
+Conversion	Ctrl [	Cancel
+Conversion	Ctrl h	Cancel
+Composition	ESC	Cancel
+Conversion	ESC	Cancel
+Conversion	Insert	Cancel
+Precomposition	Ctrl [	CancelAndIMEOff
+DirectInput	Ctrl [	CancelAndIMEOff
+Composition	Hankaku/Zenkaku	CancelAndIMEOff
+Conversion	Hankaku/Zenkaku	CancelAndIMEOff
+Precomposition	Hankaku/Zenkaku	CancelAndIMEOff
+Precomposition	Henkan	CancelAndIMEOff
+Precomposition	Muhenkan	CancelAndIMEOff
+Precomposition	Backspace	Revert
+Composition	Ctrl m	Commit
+Conversion	Ctrl m	Commit
+Composition	Ctrl n	Commit
+Composition	Down	Commit
+Composition	Enter	Commit
+Conversion	Enter	Commit
+Suggestion	Ctrl Enter	CommitFirstSuggestion
+Suggestion	Shift Enter	CommitFirstSuggestion
+Conversion	Ctrl n	CommitOnlyFirstSegment
+Conversion	Down	CommitOnlyFirstSegment
+Composition	Ctrl Space	Convert
+Composition	Henkan	Convert
+Composition	Shift Henkan	Convert
+Composition	Shift Space	Convert
+Composition	Space	Convert
+Composition	Ctrl p	ConvertToFullAlphanumeric
+Conversion	Ctrl p	ConvertToFullAlphanumeric
+Composition	F9	ConvertToFullAlphanumeric
+Conversion	F9	ConvertToFullAlphanumeric
+Composition	Ctrl i	ConvertToFullKatakana
+Conversion	Ctrl i	ConvertToFullKatakana
+Composition	F7	ConvertToFullKatakana
+Conversion	F7	ConvertToFullKatakana
+Composition	F8	ConvertToHalfWidth
+Conversion	F8	ConvertToHalfWidth
+Composition	Ctrl o	ConvertToHalfAlphanumeric
+Conversion	Ctrl o	ConvertToHalfAlphanumeric
+Composition	F10	ConvertToHalfAlphanumeric
+Conversion	F10	ConvertToHalfAlphanumeric
+Composition	Ctrl u	ConvertToHalfKatakana
+Conversion	Ctrl u	ConvertToHalfKatakana
+Composition	F6	ConvertToHiragana
+Conversion	F6	ConvertToHiragana
+Composition	F2	ConvertWithoutHistory
+Composition	Ctrl g	Delete
+Composition	Delete	Delete
+Conversion	Ctrl l	SegmentWidthExpand
+Conversion	Ctrl Shift Right	SegmentWidthExpand
+Conversion	Right	SegmentWidthExpand
+Precomposition	Shift Space	InsertAlternateSpace
+Precomposition	Space	InsertSpace
+Precomposition	Ctrl F12	LaunchConfigDialog
+Precomposition	Ctrl F7	LaunchWordRegisterDialog
+Composition	Ctrl k	MoveCursorLeft
+Composition	Left	MoveCursorLeft
+Composition	Ctrl l	MoveCursorRight
+Composition	Right	MoveCursorRight
+Composition	Ctrl Left	MoveCursorToBeginning
+Composition	Ctrl Right	MoveCursorToEnd
+Conversion	Shift Left	SegmentFocusLeft
+Conversion	Shift Right	SegmentFocusRight
+Conversion	Ctrl Left	SegmentFocusFirst
+Conversion	Ctrl Right	SegmentFocusLast
+Suggestion	Ctrl Down	PredictAndConvert
+Suggestion	Down	PredictAndConvert
+Composition	Tab	PredictAndConvert
+Conversion	Tab	PredictAndConvert
+DirectInput	Ctrl r	Reconvert
+Precomposition	Ctrl r	Reconvert
+Prediction	Ctrl Delete	DeleteSelectedCandidate
+Prediction	Ctrl Down	ConvertNext
+Conversion	Ctrl Space	ConvertNext
+Prediction	Down	ConvertNext
+Conversion	Shift Space	ConvertNext
+Conversion	Space	ConvertNext
+Conversion	Henkan	ConvertNextPage
+Prediction	Ctrl Up	ConvertPrev
+Conversion	Shift Tab	ConvertPrev
+Conversion	Up	ConvertPrev
+Prediction	Up	ConvertPrev
+Conversion	Shift Henkan	ConvertPrevPage
+Conversion	Ctrl k	SegmentWidthShrink
+Conversion	Ctrl Shift Left	SegmentWidthShrink
+Conversion	Left	SegmentWidthShrink
+Composition	Eisu	ToggleAlphanumericMode
+Conversion	Eisu	ToggleAlphanumericMode
+Precomposition	Eisu	ToggleAlphanumericMode
+Precomposition	F10	ToggleAlphanumericMode
+Composition	Hiragana	ToggleAlphanumericMode
+Conversion	Hiragana	ToggleAlphanumericMode
+Composition	Kana	ToggleAlphanumericMode
+Precomposition	Kana	ToggleAlphanumericMode
+Composition	Muhenkan	ToggleAlphanumericMode
+Composition	Shift Muhenkan	ToggleAlphanumericMode
+Precomposition	Shift Muhenkan	ToggleAlphanumericMode
+Precomposition	Ctrl Backspace	Undo
+Composition	Kanji	CancelAndIMEOff
+Composition	OFF	CancelAndIMEOff
+Composition	ON	IMEOn
+Conversion	Kanji	CancelAndIMEOff
+Conversion	OFF	CancelAndIMEOff
+Conversion	ON	IMEOn
+DirectInput	Hankaku/Zenkaku	IMEOn
+DirectInput	Henkan	IMEOn
+DirectInput	Kanji	IMEOn
+DirectInput	Muhenkan	IMEOn
+DirectInput	ON	IMEOn
+Precomposition	Kanji	CancelAndIMEOff
+Precomposition	OFF	CancelAndIMEOff
+Precomposition	ON	IMEOn
